@@ -36,4 +36,4 @@ jobs:
     - name: Run static code analysis - PMD
       run: mvn -e pmd:check --file pom.xml
     - name: Run unit tests and code coverage check - JUnit and JaCoCo
-      run: mvn -e test -Dcheckstyle.skip --file pom.xml
+      run: mvn -e test -"Dcheckstyle.skip" --file pom.xml
