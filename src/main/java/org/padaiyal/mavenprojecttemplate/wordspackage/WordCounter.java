@@ -17,6 +17,7 @@ public final class WordCounter {
 
   /**
    * Returns the number of words in a given string.
+   * 
    * @param str String to compute word count.
    * @return The number of words in the input string
    */
